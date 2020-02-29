@@ -1,0 +1,160 @@
+html { 
+    background-color: lightgrey; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;  
+    word-spacing: 85px;
+    -webkit-font-feature-settings: "smcp"; 
+    position: sticky;
+    top:0px;  
+    padding: 20px 20px 20px 20px;
+    margin: -8px;
+    z-index: 9999;
+    position: relative; top: 22px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    filter: contrast(60%);
+}
+
+.whitetitle {
+    font-family: sans-serif;
+    -webkit-font-feature-settings: "smcp", "swsh";
+    font-size: 40px;
+    color: transparent; 
+    -webkit-text-stroke: black .5px;
+    position: fixed; left: 831px; bottom: 320px;
+    z-index: 3;
+}
+
+.introduction {
+    font-family:sans-serif;
+    -webkit-font-feature-settings: "swsh", "smcp";
+    font-size: 40px;
+    color: black; 
+    position: fixed; bottom:260px;
+    margin: -150px 0px 0px 824px;
+    z-index: 2;
+}
+
+.education {
+    font-family:sans-serif;
+    -webkit-font-feature-settings: "swsh", "smcp";
+    font-size: 40px;
+    color: black; 
+    position: fixed; bottom:260px;
+    margin: -150px 0px 0px 824px;
+    z-index: 2;
+}
+
+.recentwork {
+    font-family:sans-serif;
+    -webkit-font-feature-settings: "swsh", "smcp";
+    font-size: 40px;
+    color: black; 
+    position: fixed; bottom:260px;
+    margin: -150px 0px 0px 824px;
+    z-index: 2;   
+}
+
+.getintouch {
+    font-family:serif;
+    -webkit-font-feature-settings: "swsh", "smcp";
+    font-size: 40px;
+    color: black; 
+    position: fixed; bottom:260px;
+    margin: -150px 0px 0px 824px;
+    z-index: 2;
+}
+
+.container {
+    background-color: lightgray;
+    height: 550px;
+    width: 600px;
+    position: relative; left: 100px; top: 80px;
+    z-index: 2;  
+    border-radius: 25px;
+    box-shadow: 40px 40px 100px rgba(0, 0, 0, .2), -40px -40px 100px rgba(255, 255, 255, 0.4) ;
+}
+
+.p1 {
+    font-family: sans-serif;
+    width: 440px;
+    font-size: 12pt;
+    color: black; 
+    position: fixed; right: 198px; bottom: 180px;
+    float: right;
+}
+
+.ul {
+    font-family: sans-serif;
+    font-size: 18pt;
+    color: dimgrey;
+    position: fixed; bottom: 200px; left: 35px;
+    margin: 0px 0px 0px 150px;
+    z-index: 4;
+}
+
+.form {
+    padding: 60px 80px 40px 60px;
+    position: fixed; bottom: 100px; left: 100px;
+    z-index: 5;  
+}
+
+label {
+    font-family: sans-serif;
+    color: dimgray;
+    font-size: x-large;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    position: relative; left: 55px;
+}
+
+input,textarea,text {
+    font-size: larger;
+    display: inline-block;
+    min-width: 10%;
+    max-width:50%;
+    text-align: left;
+    caret-color: lightgrey;
+    font-family: sans-serif;
+    color:rgb(115,114,102);
+    position: relative; left: 100px; 
+    border-radius: 25px;
+}
+
+.learnmore {
+    float: right;
+    position: relative; right: 524px; bottom: 20px; 
+    font-family: sans-serif;
+    -webkit-font-feature-settings: "smcp";
+    font-size: 14pt;
+    color: silver;
+}
+
+hr.style-eight {
+    height: 1.5px;
+    width: 110px;
+    border: 1;
+    box-shadow: inset 0 9px 9px -3px white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+    position: relative; right: 280px; 
+    }
